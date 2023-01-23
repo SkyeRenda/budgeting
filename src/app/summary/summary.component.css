@@ -1,0 +1,18 @@
+.grid-container{
+  display: grid;
+  column-count: 2;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 20px 0;
+}
+
+.summary{
+  text-align: center;
+  grid-column: 1/3;
+}
+
+.summary-sub{
+  grid-row: 2;
+  margin: 20px;
+  padding: 20px;
+}
+

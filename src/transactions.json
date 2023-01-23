@@ -1,0 +1,21 @@
+[
+    {
+      "description": "Welcome to quicktype!",
+      "amount": 2000,
+      "date": "2012-04-23",
+      "type": "in"
+    },
+    {
+      "description": "help",
+      "amount": 3000,
+      "date": "2015-04-23",
+      "type": "in"
+    },
+    {
+      "description": "it's a test",
+      "amount": 1000,
+      "date": "2013-04-23",
+      "type": "out"
+    }
+  ]
+
