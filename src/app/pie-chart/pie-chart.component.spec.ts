@@ -1,6 +1,10 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { PieChartComponent } from './pie-chart.component';
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
+import { NgApexchartsModule } from "ng-apexcharts";
+
 
 describe('PieChartComponent', () => {
   let component: PieChartComponent;

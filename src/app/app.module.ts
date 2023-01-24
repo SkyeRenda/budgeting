@@ -6,6 +6,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SummaryComponent } from './summary/summary.component';
 import { TransactionCardComponent } from './transaction-card/transaction-card.component';
 import { PieChartComponent } from './pie-chart/pie-chart.component';
+import {NgApexchartsModule} from "ng-apexcharts";
 
 @NgModule({
   declarations: [
@@ -14,9 +15,11 @@ import { PieChartComponent } from './pie-chart/pie-chart.component';
     SummaryComponent,
     TransactionCardComponent,
     PieChartComponent,
+    PieChartComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgApexchartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
